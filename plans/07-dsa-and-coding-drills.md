@@ -6,7 +6,9 @@ For Senior/Staff Full-Stack loops, interviews split into two coding styles:
 
 ---
 
-## Part A: High-ROI 60-Problem DSA List (Pattern-Based)
+## Part A: High-ROI 30–35 Problem Core (From the 60-Problem List)
+
+> **11+ YOE Triage Rule:** Do **not** grind all 60 problems blindly unless targeting pure FAANG algorithmic loops. Focus first on **~30–35 high-ROI problems** across **Arrays/Hashing, Sliding Window, Binary Search on Answer, Intervals, LRU/Design, Trees, Graphs/Topological Sort, and Heaps**, plus **Multi-Part Stateful Coding** (`study-materials/06`). Deprioritize heavy 2D DP (`Word Break`, `Edit Distance`) unless a target company explicitly tests them.
 
 Solve these in **TypeScript/JavaScript** without IDE autocomplete. Aim for **20–25 min per Medium**, speaking your approach before coding.
 
@@ -94,6 +96,7 @@ Solve these in **TypeScript/JavaScript** without IDE autocomplete. Aim for **20�
 Senior Frontend/Full-Stack interviews often replace a LeetCode round with one of these:
 
 ### JavaScript / TypeScript Runtime Utilities
+*(Priority 1 = #1, #2, #3, #7, #8 below; skip memorizing #4–#6 polyfills unless targeting a frontend-trivia screen.)*
 1. **`debounce(fn, wait, { leading, trailing })` & `throttle(fn, wait)`** — handle `this` binding, args, return `.cancel()` / `.flush()`.
 2. **Async Concurrency Limiter (`mapWithConcurrency(items, limit, asyncFn)`)** — runs at most `N` promises concurrently, preserves output order, stops or collects errors cleanly.
 3. **Retry with Exponential Backoff + Jitter + AbortSignal** — directly mirrors your backend retry experience!

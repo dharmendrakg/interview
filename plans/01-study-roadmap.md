@@ -2,6 +2,8 @@
 
 Choose the **4-Week Sprint** if you already have interviews scheduled or are actively applying right now. Choose the **8-Week Deep Track** if you are targeting Staff/L6 roles at top product companies and want maximum DSA + System Design polish.
 
+> **Important Sequencing Rule:** Do **not** wait 4–8 weeks in isolation before talking to the market. Start **Tier-2 referrals & outreach in Week 1** ([`00-job-search-execution.md`](./00-job-search-execution.md)) to validate resume conversion and calibrate live screens while keeping Tier-1 dream loops for Weeks 3–6+.
+
 ---
 
 ## Target Readiness Bar (Exit Criteria)
@@ -73,7 +75,7 @@ Use the same module order as Track A, stretching each Track A week across **2 we
 
 Copy this checklist to track completion:
 
-- [ ] **Week 1:** All 10+ resume stories rehearsed aloud; 15 coding problems; React 19 & Next.js 16 notes locked.
+- [ ] **Week 1:** All `[VERIFY]` & `[FILL IN]` story gaps closed; Tier-2 referrals sent (`00`); 12–15 high-ROI coding drills; React 19, Next.js 16 & WCAG/Design System governance notes locked.
 - [ ] **Week 2:** Postgres `EXPLAIN` + Node memory/event loop mastered; 3 system designs completed; 15 more coding problems.
 - [ ] **Week 3:** AI engineering + MCP/Ollama defenses solid; 3 more system designs; full behavioral matrix complete.
 - [ ] **Week 4:** 2+ timed full mock loops completed; weak-spot re-drills done; interview cheat sheet finalized.

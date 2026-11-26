@@ -63,7 +63,8 @@ Interviewers at senior/staff levels often worry: *"Does 'AI-first' mean shipping
 - **Multi-Provider Routing:** Explain *why* using both Anthropic and Groq makes sense:
   - **Groq** for ultra-low-latency streaming (<300ms TTFT) on quick syntax fixes / JSON repairs / interactive UX.
   - **Anthropic (Claude)** for deeper multi-step reasoning and nuanced explanations.
-- **Streaming & Cost Control:** `streamText` / `streamObject` in Next.js Route Handlers, max token caps, abort handling when user cancels/closes tab (`req.signal`), per-tier usage metering in Drizzle/MySQL + Redis rate limits.
+- **Streaming, Prompt Caching & Unit Economics:** `streamText` / `streamObject` in Next.js Route Handlers, prompt caching for static system/skill prefixes (cutting TTFT & input token cost), max token caps, abort handling (`req.signal`), per-tier usage metering in Drizzle/MySQL + Redis rate limits, and comparing cloud token economics vs. local Ollama GPU/latency sizing.
+- **Human-in-the-Loop Write Guardrails:** Explicit confirmation state machines for any mutating agent tool, plus practicing **live AI-assisted coding interviews** (steering an agent cleanly, rejecting subtle bugs, and verifying edge cases under a 45-min clock).
 
 ---
 

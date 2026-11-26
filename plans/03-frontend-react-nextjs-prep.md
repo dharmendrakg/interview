@@ -52,10 +52,10 @@ Tie answers to **leading Sphere's UI & MUI v7 design system**:
 - **MUI v7 vs. Tailwind/shadcn trade-offs:**
   - *MUI v7:* Best for enterprise apps needing complex accessible widgets out of the box (MUI X Data Grid, Date Pickers, complex Dialog/Menu keyboard focus traps) and centralized theme tokens across multiple product squads. Watch bundle size (tree-shaking, avoiding barrel imports), CSS specificity/Emotion vs. Pigment CSS / CSS variables.
   - *Tailwind + shadcn/ui:* Copy-owned primitives (Radix/Base UI + Tailwind), zero runtime CSS-in-JS overhead, ideal for consumer/product apps like **DevFlow** and **UICraft** where bespoke visual identity and RSC compatibility matter.
-- **Preventing Design System Rot:**
+- **Preventing Design System Rot & Governance at Scale:**
   - Expose semantic variants (`<StatusBadge tone="warning" />`), not raw escape hatches everywhere.
-  - Visual regression & interaction tests in Storybook/Playwright; enforce a11y (`aria-*`, focus management, contrast, keyboard navigation).
-  - Never leak MUI internals in domain business components if you want smooth major upgrades (v5 → v7).
+  - Visual regression & interaction tests in Storybook/Playwright; enforce **WCAG 2.2 AA** (`aria-*`, roving tabindex, combobox/dialog focus traps, screen-reader live regions, contrast).
+  - Never leak MUI internals in domain business components if you want smooth major upgrades (v5 → v7); ship breaking upgrades via codemods, semver packages, and monorepo/workspace build caching (Turborepo/Nx).
 
 ---
 

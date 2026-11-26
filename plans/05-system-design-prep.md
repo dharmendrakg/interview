@@ -11,8 +11,8 @@ At 11+ years (Senior / Staff), system design is graded on **clarity of framing, 
 2. **Back-of-the-Envelope Math (3 min):** QPS (peak = 3× avg), storage growth/year, payload size (remember your `63 KB × 27k` intuition!).
 3. **High-Level Architecture & APIs (8–10 min):** Clients, API Gateway/BFF, core services, DBs, async queues/CDC, key REST/GraphQL endpoints.
 4. **Data Model & Storage Choice (8 min):** Tables/collections, primary keys, indexes, why Postgres vs. MySQL vs. MongoDB vs. Redis.
-5. **Deep Dives & Bottlenecks (15 min):** Drive this proactively! Pick 2–3 hardest parts: race conditions, idempotency, CDC sync loops, cache stampede, backpressure, observability.
-6. **Failure Modes & Rollout (4–5 min):** What breaks when downstream (e.g., Salesforce/payment provider) is slow or down? Circuit breakers, DLQs, feature flags, phased migration.
+5. **Deep Dives & Bottlenecks (15 min):** Drive this proactively! Pick 2–3 hardest parts: race conditions, idempotency, CDC sync loops, cache stampede, backpressure, observability, **SLIs/SLOs & error budgets**.
+6. **Failure Modes, Governance & Rollout (4–5 min):** What breaks when downstream (e.g., Salesforce/payment provider) is slow or down? Circuit breakers, DLQs, feature flags, phased migration, plus **Staff governance** (RFC/ADR trade-offs, build-vs-buy-vs-wrap, incremental tech-debt retirement).
 
 ### Frontend Architecture (45 min — RADIO Framework)
 1. **R — Requirements:** Users, devices, offline/realtime needs, SEO vs. authenticated app, a11y/i18n.

@@ -34,6 +34,7 @@ With **11+ years** of experience (5 years at NortonLifeLock, 6+ years at Comcast
 
 | File | Purpose | When to Use |
 | :--- | :--- | :--- |
+| [`00-job-search-execution.md`](./00-job-search-execution.md) | 3-tier target pipeline, referral/HM outreach templates, public proof & comp calibration | Day 0 setup & weekly outreach alongside prep |
 | [`01-study-roadmap.md`](./01-study-roadmap.md) | 4-week sprint & 8-week deep tracks, daily schedule, exit criteria | Day 0 planning & weekly check-ins |
 | [`02-resume-deep-dive-stories.md`](./02-resume-deep-dive-stories.md) | Every resume bullet/project expanded into 2-min + 10-min scripts & probe Qs | First 3 days + before every recruiter/HM screen |
 | [`03-frontend-react-nextjs-prep.md`](./03-frontend-react-nextjs-prep.md) | React 19, Compiler, Next.js 14–16, TS, Design Systems, State, Testing | Core frontend rounds & machine coding |
@@ -48,8 +49,9 @@ With **11+ years** of experience (5 years at NortonLifeLock, 6+ years at Comcast
 
 ## 4. Quick-Start Checklist (First 48 Hours)
 
-- [ ] Decide target track & timeline in [`01-study-roadmap.md`](./01-study-roadmap.md) (4-week sprint vs. 8-week thorough).
-- [ ] Read [`02-resume-deep-dive-stories.md`](./02-resume-deep-dive-stories.md) and fill in the `[VERIFY]` prompts with exact mental numbers/details from Comcast & NortonLifeLock (no confidential specifics, just crisp technical facts).
+- [ ] Fill every `[VERIFY]` and `[FILL IN]` placeholder in `resume.md`, [`02-resume-deep-dive-stories.md`](./02-resume-deep-dive-stories.md), and [`08-behavioral-and-leadership-prep.md`](./08-behavioral-and-leadership-prep.md).
+- [ ] Sync LinkedIn + pinned GitHub repos and build your 25–30 company tiered pipeline in [`00-job-search-execution.md`](./00-job-search-execution.md).
+- [ ] Decide target track & timeline in [`01-study-roadmap.md`](./01-study-roadmap.md) (4-week sprint vs. 8-week thorough) and launch Week 1 Tier-2 referrals in parallel.
 - [ ] Record yourself delivering the 90-second pitch from [`08-behavioral-and-leadership-prep.md`](./08-behavioral-and-leadership-prep.md).
 - [ ] Run one timed 45-minute coding baseline (1 DSA Medium + 1 JS/TS utility) from [`07-dsa-and-coding-drills.md`](./07-dsa-and-coding-drills.md) to calibrate speed.
 - [ ] Schedule at least 2 mock system design + 2 mock coding interviews (peer, mentor, or AI-simulated whiteboard).

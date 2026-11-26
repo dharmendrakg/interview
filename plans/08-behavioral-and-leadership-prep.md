@@ -7,12 +7,13 @@ At 11+ years (DE4 / Senior / Staff), behavioral rounds are **decisive**. A stron
 ## 1. Your 60-Second & 2-Minute Intro Pitches
 
 ### 60-Second Recruiter / Quick Screen Pitch
-> "I'm Dharmendra, a Senior Full-Stack Engineer with 11+ years of experience building web applications across React, TypeScript, Next.js, and Node.js. For the past 6 years at Comcast, I've been the UI Lead and go-to reviewer across UI and backend services on Sphere—our platform replacing legacy Salesforce for network expansion. Beyond shipping design systems, Salesforce-to-Sphere migrations with CDC, and fixing deep production bottlenecks like a 16× query speedup and a 3-factor memory spike, I build AI-first engineering tooling—including MCP servers linking PR diffs with Zipkin traces and an Ollama-powered domain assistant. Outside work, I run four live products end to end like DevFlow and FaucetWorld."
+> "I'm Dharmendra, a hands-on Staff Full-Stack Engineer (Individual Contributor) with 11+ years of experience driving UI architecture, design systems, and backend reliability across React, TypeScript, Next.js, and Node.js. For the past 6 years at Comcast, I've been the UI Lead (IC) and cross-service reviewer on Sphere—our platform replacing legacy Salesforce for network expansion. Beyond owning Sphere's shared MUI v7 design system, driving 4 Salesforce domain migrations with CDC, and solving production forensics like a 16× query speedup and a 3-cause memory spike, I built AI-first workflows—shipping an MCP server linking PR diffs with Zipkin traces and an Ollama-powered domain assistant. Outside work, I build and operate automated live products like DevFlow and FaucetWorld."
 
 ### 2-Minute Hiring Manager Pitch
-Add two crisp anchors to the 60s pitch:
-- **How you work:** "I focus on leverage—designing clean API/domain boundaries so bugs like stale actions or client race conditions become impossible by construction, and gating AI-assisted code with automated tests, trace-aware reviews, and staged rollouts."
-- **What you're looking for next:** Tailor to the role (e.g., high-ownership Senior/Staff Full-Stack or AI-native product engineering where architecture, UI polish, backend reliability, and builder velocity all matter).
+Add three crisp anchors to the 60s pitch:
+- **How you work:** "I focus on technical leverage—designing clean API/domain boundaries so bugs like stale actions or client race conditions become impossible by construction, and gating AI-assisted code with automated tests, trace-aware reviews, and staged rollouts."
+- **Why leaving Comcast after 6+ years & strictly IC (not EM):** "I've had tremendous architectural scope on Sphere, and now I want a hands-on IC Staff environment where deep system design, AI-native engineering, and tight product loops are central. I explicitly want to stay an Individual Contributor rather than move into people management because I create the most value writing critical-path code, designing systems, elevating code review bars, and building leverage tooling."
+- **What you're looking for next:** Tailor to the role (Staff Frontend Architect, Staff Full-Stack, or AI-Native Product Engineer).
 
 ---
 
@@ -67,7 +68,7 @@ Never say "I have no questions." Pick 2–3 tailored to who's interviewing you:
 ### For Engineering / Hiring Manager
 1. *"What is the single biggest architectural bottleneck or migration risk the team is wrestling with over the next 6 months?"*
 2. *"How does your team balance shipping velocity with verification—especially if engineers are adopting AI coding tools?"*
-3. *"What separates a strong Senior Engineer from a truly high-impact Staff/Lead engineer in your org?"*
+3. *"What separates a strong Senior Engineer from a truly high-impact Staff IC engineer in your org?"*
 
 ### For Staff / Peer Engineers
 1. *"Where do UI and backend boundaries currently cause the most friction or bugs in this codebase?"*
@@ -84,7 +85,7 @@ Never say "I have no questions." Pick 2–3 tailored to who's interviewing you:
 
 ### Tailoring Your Framing by Target Role
 - **Senior / Staff Full-Stack (Product Companies / Remote):** Lead with end-to-end ownership (`Sphere` UI + backend forensics + Salesforce migration + `DevFlow`/`FaucetWorld` product sense).
-- **Staff / Principal Frontend Architect:** Lead with Sphere UI Leadership + MUI v7 Design System governance, Next.js 14–16 RSC/Cache Components, React 19 Compiler, live telemetry dashboards, and NortonLifeLock browser-extension security.
+- **Staff / Principal Frontend Engineer (IC):** Lead with Sphere UI Architecture + MUI v7 Design System governance, Next.js 14–16 RSC/Cache Components, React 19 Compiler, live telemetry dashboards, and NortonLifeLock browser-extension security.
 - **AI-Native Product / Staff Engineer:** Lead with MCP server (PR diffs + Zipkin traces), Copilot Agent Mode VS Code extension, domain skills, deterministic verification gates, and local Ollama domain-router + Generative UI.
 
 ### Post-Mock Self-Scoring Rubric (1–5 Scale; Aim for ≥ 4 Before Real Loops)
